@@ -2,7 +2,7 @@ import streamlit as st
 from langchain_community.llms import HuggingFaceHub
 
 # Retrieve API key securely from Streamlit secrets
-hf_api_key = st.secrets["huggingface"]["api_key"]
+hf_api_key = st.secrets["api_key"]
 
 # Set up Streamlit UI
 st.title("LangChain + Hugging Face Model in Streamlit")
