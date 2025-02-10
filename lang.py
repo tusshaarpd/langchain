@@ -1,5 +1,6 @@
 import streamlit as st
-from langchain.llms import HuggingFaceHub
+from langchain_community.llms import HuggingFaceHub
+
 
 # Set up Streamlit UI
 st.title("LangChain + Hugging Face Model in Streamlit")
